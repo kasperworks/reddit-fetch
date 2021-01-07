@@ -1,23 +1,69 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Dependency directories
+node_modules/
 
-# testing
-/coverage
-
-# production
+# Production
 /build
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# EditorConfig
+.editorconfig
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Node diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# dotenv environment variables
+.env
+.env.test
+
+# Linter cache
+.eslintcache
+
+# Gatsby files
+.cache/
+
+# Linux 
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Notepad++ backups #
+*.bak
+
+# Temp
+temp/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Vim
+Session.vim
+Sessionx.vim
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Windows 
+*.lnk
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp

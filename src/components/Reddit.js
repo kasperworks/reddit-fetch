@@ -87,6 +87,7 @@ const Reddit = () => {
         type="text"
         placeholder="Enter subreddit name"
         name="search"
+        value={sub}
         onChange={handleChange}
       />
       <List>
